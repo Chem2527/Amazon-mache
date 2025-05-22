@@ -53,7 +53,7 @@
 
  - Once this is enabled, Macie will be active in the Member account as well.
 
-### Step 3: Enable Macie in the Dev Account (if needed)
+### Step 3: Enable Macie in the Member Account (if needed)
 - Log in to the AWS Console with your Member account credentials.
 
 - Navigate to Amazon Macie:
