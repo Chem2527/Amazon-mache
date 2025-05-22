@@ -45,16 +45,16 @@
 
  - Select Macie and enable it for the entire organization.
 
- - Choose to enable it for all accounts (including dev), or select specific accounts.
+ - Choose to enable it for all accounts (including Member), or select specific accounts.
 
 - Configure Permissions:
 
  - AWS Organizations will create a delegated administrator in your organization to manage Macie settings for all accounts.
 
- - Once this is enabled, Macie will be active in the dev account as well.
+ - Once this is enabled, Macie will be active in the Member account as well.
 
 ### Step 3: Enable Macie in the Dev Account (if needed)
-- Log in to the AWS Console with your dev account credentials.
+- Log in to the AWS Console with your Member account credentials.
 
 - Navigate to Amazon Macie:
 
@@ -62,13 +62,13 @@
 
 - Check the Status:
 
- - If you've enabled Macie through AWS Organizations, you should see Macie enabled in your dev account.
+ - If you've enabled Macie through AWS Organizations, you should see Macie enabled in your Member account.
 
  - You may be prompted to configure settings like data classification and jobs.
 
 - Create Discovery Jobs (Optional):
 
- - Set up discovery jobs in the dev account, specifying which S3 buckets to scan for sensitive data.
+ - Set up discovery jobs in the Member account, specifying which S3 buckets to scan for sensitive data.
 
 ### Step 4: Verify Macie is Working
 - Once Amazon Macie is enabled, you can verify that it's working by checking the following:
